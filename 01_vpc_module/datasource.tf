@@ -1,6 +1,6 @@
 
 data "aws_availability_zones" "az" { #No need to mention the region name as already mentioned in provider.tf
-  #state = "available" #To fetch the available zones 
+  #state = "available" #To fetch the available zones. 
 }
 
 data "aws_vpc" "default" {
